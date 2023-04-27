@@ -1,0 +1,229 @@
+
+#pricing {
+    padding-top: 156px;
+}
+.pricing {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 62px;
+    margin-bottom: 500px;
+}
+.pricing-text {
+    width: 478px;
+}
+.pricing-text > h6 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight:var(--fontWeight-p500);
+    font-size: var(--font-p18);
+    line-height: 28px;
+    color: var(--color-pink);
+}
+.pricing-text > h2 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: var(--fontWeight-h600);
+    font-size: var(--font-h48);
+    line-height: 66px;
+    letter-spacing: -2px;
+    color: var(--fontColor-black);
+    padding-top: 16px;
+    padding-bottom: 32px;
+}
+.pricing-text > p{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight:var(--fontWeight-p400);
+    font-size: var(--font-p18);
+    line-height: 32px;
+    color: var(--color-grey);
+}
+.pricing-text > button {
+    margin-top: 48px;
+    width: 150px;
+    height: 56px;
+    border:solid var(--color-blue);
+    background:var(--color-blue);
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+.pricing-text > button > a {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight:var(--fontWeight-h600);
+    font-size: var(--font-p14);
+    line-height: 20px;
+    text-align: center;
+    letter-spacing: -0.02em;
+    color: #F8FAFC;
+}
+.pricing-card {
+    width: 660px;
+    display: flex;
+    justify-content: space-between;
+}
+.pricing-card > .pricing-card-mini:first-child {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 318px;
+    background: var(--color-pink);
+    border: 1px solid #E5EAF1;
+    border-radius: 12px;
+}
+.pricing-card > .pricing-card-mini:first-child > h3 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: var(--fontWeight-h600);
+    font-size: 20px;
+    line-height: 32px;
+    text-align: center;
+    letter-spacing: -0.3px;
+    color: #FFFFFF;
+    padding-top: 31px;
+    padding-bottom: 2px;
+}
+.pricing-card > .pricing-card-mini:first-child > h3 + p {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: var(--fontWeight-p500);
+    font-size: 16px;
+    line-height:24px;
+    text-align: center;
+    color: #FFFFFF;
+    padding-bottom: 25px;
+}
+.pricing-card > .pricing-card-mini:first-child > h2 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: var(--font-h48);
+    line-height: 60px;
+    text-align: center;
+    letter-spacing: -2px;
+    color: #FFFFFF;
+    padding-bottom: 19px;
+}
+hr + p {
+    padding-top: 51px;
+}
+.pricing-card > .pricing-card-mini:first-child > p {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: var(--fontWeight-p500);
+    font-size: 16px;
+    line-height:24px;
+    text-align: center;
+    color: #FFFFFF;
+    padding-bottom: 16px;
+}
+.pricing-card > .pricing-card-mini:first-child > button {
+    width: 199px;
+    height: 56px;
+    background: var(--color-blue);
+    border: var(--color-blue);
+    border-radius: 5px;
+    margin-top: 38px;
+    margin-bottom: 47px;
+}
+.pricing-card > .pricing-card-mini:first-child > button a {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: var(--fontWeight-h600);
+    font-size: var(--font-p14);
+    line-height: 20px;
+    text-align: center;
+    letter-spacing: -0.02em;
+    color: #FFFFFF;
+}
+.pricing-card > .pricing-card-mini:last-child {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 318px;
+    background: var(--color-blue);
+    border: 1px solid #E5EAF1;
+    border-radius: 12px;
+}
+.pricing-card > .pricing-card-mini:last-child > h3 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: var(--fontWeight-h600);
+    font-size: 20px;
+    line-height: 32px;
+    text-align: center;
+    letter-spacing: -0.3px;
+    color: #FFFFFF;
+    padding-top: 31px;
+    padding-bottom: 2px;
+}
+.pricing-card > .pricing-card-mini:last-child > h3 + p {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: var(--fontWeight-p500);
+    font-size: 16px;
+    line-height:24px;
+    text-align: center;
+    color: #FFFFFF;
+    padding-bottom: 25px;
+}
+.pricing-card > .pricing-card-mini:last-child > h2 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: var(--font-h48);
+    line-height: 60px;
+    text-align: center;
+    letter-spacing: -2px;
+    color: #FFFFFF;
+    padding-bottom: 19px;
+}
+hr + p {
+    padding-top: 51px;
+}
+.pricing-card > .pricing-card-mini:last-child > p {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: var(--fontWeight-p500);
+    font-size: 16px;
+    line-height:24px;
+    text-align: center;
+    color: #FFFFFF;
+    padding-bottom: 16px;
+}
+.pricing-card > .pricing-card-mini:last-child > button {
+    width: 199px;
+    height: 56px;
+    background: var(--color-pink);
+    border: var(--color-blue);
+    border-radius: 5px;
+    margin-top: 38px;
+    margin-bottom: 47px;
+}
+.pricing-card > .pricing-card-mini:last-child > button a {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: var(--fontWeight-h600);
+    font-size: var(--font-p14);
+    line-height: 20px;
+    text-align: center;
+    letter-spacing: -0.02em;
+    color: #FFFFFF;
+}
+.pricing-card > .pricing-card-mini:hover {
+    background-color:transparent;
+}
+.pricing-card > .pricing-card-mini:hover h3,
+.pricing-card > .pricing-card-mini:hover h2 {
+    color: var(--fontColor-black) !important;
+}
+.pricing-card > .pricing-card-mini:hover p {
+    color:var(--color-grey);
+} 
+.pricing-card > .pricing-card-mini:hover h3 + p {
+    color:var(--color-grey);
+}

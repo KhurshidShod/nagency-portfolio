@@ -1,0 +1,77 @@
+.works{
+    background-color: white;
+}
+.works .works-wrapper{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 1rem;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+}
+.works .works-wrapper p{
+    font-size: var(--font-p18);
+    font-weight: var(--fontWeight-p500);
+    color: var(--color-pink);
+}
+.works .works-wrapper h1{
+    font-size: var(--font-h48);
+    font-weight: var(--fontWeight-h600);
+    text-align: center;
+    color: black;
+    color: #0F172A;
+}
+.works .works-wrapper .video{
+    width: 95%;
+    max-width: 855px;
+    min-width: 300px;
+    border-radius: 32px;
+    position: relative;
+    -webkit-border-radius: 32px;
+    -moz-border-radius: 32px;
+    -ms-border-radius: 32px;
+    -o-border-radius: 32px;
+}
+.works .works-wrapper .video video{
+    width: 100%;
+    border-radius: 32px;
+    -webkit-border-radius: 32px;
+    -moz-border-radius: 32px;
+    -ms-border-radius: 32px;
+    -o-border-radius: 32px;
+}
+.works .works-wrapper .video .playWorksVideo{
+    width: 75px;
+    height: 75px;
+    background-color: white;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: rgba(255, 255, 255, 1) 0px 0px 30px 20px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+}
+.works .works-wrapper .video .playWorksVideo::before{
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 63%;
+    border: 15px solid transparent;
+    border-left-color: black;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+}
